@@ -1,0 +1,72 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.nav_link {
+    display: block;
+    color: #000000;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    background-color: #2b4675;
+    text-align: left;
+    padding: 13px;
+    text-decoration: none;
+}
+
+.navigation_container {
+    background-image: url(../pics/mountain.png);
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    height: 20%;
+}
+
+.mountain {
+    width: 100%;
+}
+
+.menu {
+    list-style: none;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+.menu_item {
+    font-size: 12px;
+    padding: 5px 5px 5px 20px;
+}
+
+.logo {
+    height: 60px;
+    margin-left: 57px;
+    margin-top: 30px;
+
+}
+
+
+
+@media (min-width: 610px) {}
+
+.some_container {
+    width: 100%;
+}
+
+@media (min-width: 870px) {
+
+    .navigation_container {
+        height: 400px;
+    }
+
+
+}
