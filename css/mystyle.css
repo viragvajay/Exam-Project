@@ -7,32 +7,41 @@
     box-sizing: border-box;
 }
 
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main {
+    background-image: url(../pics/background.jpg);
+    opacity: 0.95;
+}
+
 .nav_link {
     display: block;
     color: #000000;
     text-align: center;
     color: white;
     font-size: 14px;
-    background-color: #2b4675;
+    background-color: #859ccd;
     text-align: left;
     padding: 13px;
     text-decoration: none;
 }
 
 .navigation_container {
-    background-image: url(../pics/mountain.png);
-    background-repeat: no-repeat;
+    background-image: url(../pics/mooooontain);
+    background-size: cover;
+    background-position: top;
     position: fixed;
     width: 100%;
     z-index: 3;
     top: 0;
     left: 0;
-    height: 20%;
 }
 
-.mountain {
-    width: 100%;
-}
 
 .menu {
     list-style: none;
@@ -54,6 +63,70 @@
 
 }
 
+/*main design*/
+.advert-container {
+    margin-top: 60px;
+
+
+}
+
+.limited {
+    margin-top: 50px;
+    width: 50%;
+    margin-left: 25%;
+
+}
+
+.advert-text {
+    align-content: center;
+    background-color: white;
+}
+
+.paragraph {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: brown;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+
+
+/* footer*/
+
+.some_container {
+    width: 100%;
+    background-image: url(../pics/wave.png);
+    margin-bottom: 50px;
+    position: fixed;
+}
+
+.some {
+    color: grey;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.join {
+    text-align: center;
+    color: grey;
+}
+
+.social_icons {
+    justify-content: center;
+    display: flex;
+    color: grey;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.icons {
+    color: grey;
+    margin: 10px;
+    text-decoration: none;
+}
 
 
 @media (min-width: 610px) {}
@@ -65,8 +138,15 @@
 @media (min-width: 870px) {
 
     .navigation_container {
-        height: 400px;
+        width: 100%;
+        height: auto;
     }
 
+    .paragraph {
+        text-align: justify;
+        font-family: 'Lobster', cursive;
+        font-size: 40px;
+        color: brown;
+    }
 
 }
