@@ -189,10 +189,9 @@ main {
 @media (min-width: 610px) {
 
     .video {
-        max-width: 80%;
-        justify-content: center;
         display: block;
-
+        margin: 0 auto;
+        max-width: 80%;
     }
 
     .some_container {
