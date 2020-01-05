@@ -107,7 +107,40 @@ main {
 
 
 /* footer*/
+.some_container {
+    margin-bottom: 50px;
+}
 
+.some {
+    color: grey;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.join {
+    font-family: 'open sans';
+    text-align: center;
+    color: grey;
+}
+
+.social_icons {
+    justify-content: center;
+    display: flex;
+    color: grey;
+    margin: 10px;
+    text-decoration: none;
+
+
+}
+
+.icons {
+    color: grey;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/*
 .some_container {
     width: 100%;
     background-image: url(../pics/wave.png);
@@ -139,12 +172,25 @@ main {
     margin: 10px;
     text-decoration: none;
 }
+*/
 
+@media (min-width: 610px) {
 
-@media (min-width: 610px) {}
+    .some_container {
+        width: 100%;
 
-.some_container {
-    width: 100%;
+    }
+
+    .join {
+        font-size: 35px;
+        font-family: 'open sans';
+    }
+
+    .social_icons {}
+
+    .icons {
+        font-size: 50px;
+    }
 }
 
 @media (min-width: 870px) {
