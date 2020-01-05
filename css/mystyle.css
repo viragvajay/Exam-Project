@@ -152,39 +152,7 @@ main {
     text-decoration: none;
 }
 
-/*
-.some_container {
-    width: 100%;
-    background-image: url(../pics/wave.png);
-    margin-bottom: 50px;
-    position: fixed;
-}
 
-.some {
-    color: grey;
-    margin: 10px;
-    text-decoration: none;
-}
-
-.join {
-    text-align: center;
-    color: grey;
-}
-
-.social_icons {
-    justify-content: center;
-    display: flex;
-    color: grey;
-    margin: 10px;
-    text-decoration: none;
-}
-
-.icons {
-    color: grey;
-    margin: 10px;
-    text-decoration: none;
-}
-*/
 
 @media (min-width: 610px) {
 
