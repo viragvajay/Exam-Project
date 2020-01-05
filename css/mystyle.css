@@ -191,7 +191,7 @@ main {
     .video {
         display: block;
         margin: 0 auto;
-        max-width: 80%;
+        max-width: 70%;
     }
 
     .some_container {
