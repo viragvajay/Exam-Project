@@ -88,8 +88,6 @@ main {
 .advert-container {
     margin-top: 60px;
 
-
-
 }
 
 .limited {
@@ -161,6 +159,11 @@ main {
         display: block;
         margin: 0 auto;
         max-width: 70%;
+    }
+
+    .advert-container {
+        justify-content: space-around;
+        display: flex;
     }
 
     .some_container {
