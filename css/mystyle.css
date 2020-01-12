@@ -76,6 +76,8 @@ main {
 
 .stopmotion_container {
     width: 100%;
+    background: rgba(255, 255, 255, .3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .4);
 
 }
 
@@ -99,8 +101,9 @@ main {
 
 .advert-text {
     align-content: center;
-    background-color: white;
-    opacity: 0.5;
+    background: rgba(255, 255, 255, .3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .4);
+
 
 }
 
@@ -155,16 +158,20 @@ main {
 
 @media (min-width: 610px) {
 
+    .stopmotion_container {
+        display: block;
+        margin: 0 auto;
+        background: rgba(255, 255, 255, .1);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .6);
+
+    }
+
     .video {
         display: block;
         margin: 0 auto;
         max-width: 70%;
     }
 
-    .advert-container {
-        justify-content: space-around;
-        display: flex;
-    }
 
     .some_container {
         width: 100%;
@@ -181,6 +188,46 @@ main {
     .icons {
         font-size: 50px;
     }
+
+
+    .advert-container {
+        width: 100%;
+        margin-top: 40px;
+        align-content: center;
+        display: flex;
+        background: rgba(255, 255, 255, .3);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .4);
+
+    }
+
+    .image1 {
+        margin-top: 50px;
+        width: 50%;
+
+    }
+
+    .limited {
+        opacity: 1;
+    }
+
+    .advert-text {
+        opacity: 1;
+        width: 50%;
+        align-content: center;
+        padding: 90px 30px;
+        margin: 0 30px 0 30px;
+
+
+    }
+
+    .paragraph {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        color: black;
+    }
+
+
 }
 
 @media (min-width: 870px) {
